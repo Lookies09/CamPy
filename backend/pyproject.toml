@@ -1,0 +1,14 @@
+[project]
+name = "campy-backend"
+version = "0.1.0"
+description = "Grad-CAM 정밀 분석 툴 백엔드"
+readme = "README.md"
+requires-python = ">=3.10, <3.13" 
+dependencies = [
+    "fastapi>=0.115.0",
+    "pywebview>=5.0",
+    "uvicorn>=0.30.0",
+    "ultralytics>=8.3.0", 
+    "python-multipart>=0.0.12", 
+    "tqdm>=4.66.0",
+]
