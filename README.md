@@ -46,8 +46,8 @@ CamPy는 CNN(합성곱 신경망)이 특정 클래스를 예측할 때 이미지
 ### 사전 요구사항
 
 - Node.js (프론트엔드 개발용)
-- Python 3.8 이상
-- pip (Python 패키지 관리자)
+- Python 3.10 ~ 3.12
+- uv (Python 패키지 관리자)
 
 ### 설치
 
@@ -71,14 +71,9 @@ npm install
 
 ```bash
 cd ../backend
-python -m venv venv
 
-# 가상 환경 활성화
-source venv/bin/activate        # macOS / Linux
-.\venv\Scripts\activate         # Windows
-
-# 패키지 설치 (requirements.txt가 없으므로 직접 설치)
-pip install torch opencv-python numpy ultralytics fastapi uvicorn webview
+# 가상 환경 생성 및 의존성 설치
+uv sync
 ```
 
 ---
