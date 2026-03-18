@@ -2,6 +2,12 @@
 
 CamPy는 CNN(합성곱 신경망)이 특정 클래스를 예측할 때 이미지에서 어떤 영역에 주목하는지를 시각적으로 보여주는 **Grad-CAM(Gradient-weighted Class Activation Mapping)** 추출 도구입니다. React 기반 프론트엔드, Python FastAPI 백엔드, 그리고 Pywebview 데스크톱 래퍼를 결합하여 하나의 완성된 애플리케이션을 제공합니다.
 
+
+<div align="center">
+  <img width="49%" alt="분석 화면" src="https://github.com/user-attachments/assets/85a307e6-0484-400d-8613-3624c0de159d" />
+  <img width="49%" alt="결과 화면" src="https://github.com/user-attachments/assets/d6611b1d-7330-46ae-b20f-256224a4c115" />
+</div>
+
 ---
 
 ## 주요 기능
